@@ -42,3 +42,36 @@ et que ça reste debout — pas juste que ça marche « chez moi ».
 
 > La majorité de mon travail vit dans des dépôts privés (plateforme TAMEL).
 > Ici, c'est surtout de l'ops et de l'outillage interne.
+
+<details>
+<summary>🇬🇧 Read in English</summary>
+
+<br>
+
+**IT Manager · Ops & Security · Marseille, France**
+
+I keep the [tamel.fr](https://tamel.fr) platform running day to day: deployments,
+identities, secrets and service availability. My job is that it ships without surprises
+and stays up — not just that it works "on my machine".
+
+→ Platform · [tamel.fr](https://tamel.fr) — the digital hub of Centres d'Affaires TAMEL (23 stores, 5 agencies in Marseille)  
+→ Contact · jean-etienne@tamel.fr
+
+### What I run
+
+- **Deployment & CI/CD** · Vercel (frontend) + Render (backend) deploy trains, *Ignored Build Step* / build filters, GitHub Actions, auto-merge on green CI
+- **Identity & access** · Microsoft Entra ID / 365, staff account provisioning, security groups, application RBAC (5 roles, per-agency scoping)
+- **Secrets & configuration** · per-service environment variables, encrypted vaults (AES-256-GCM), rotation, least privilege
+- **Database & data** · Supabase / PostgreSQL, migrations, deny-by-default RLS, backups
+- **Compliance & security** · AML/CFT · GDPR, security headers (Helmet/CSP), rate limiting, audit log
+- **Observability & reliability** · health checks, scheduled crons, "provider down" digests, Teams incident alerts
+
+### Daily stack
+
+`Microsoft Entra ID / 365` · `Vercel` · `Render` · `Supabase / PostgreSQL` · `GitHub Actions`
+· `Docker` · `Node 22 / TypeScript` · `Prisma` · `Stripe` · `Resend` · `OVH` · `Teams`
+
+> Most of my work lives in private repositories (the TAMEL platform).
+> Here it's mostly ops and internal tooling.
+
+</details>
